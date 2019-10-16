@@ -1,0 +1,32 @@
+html {
+  background-color: white; }
+
+::-moz-selection {
+  background-color: black;
+  color: #ecba9d; }
+
+::selection {
+  background-color: black;
+  color: #ecba9d; }
+
+a {
+  color: black; }
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  letter-spacing: -0.045em;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  overflow-x: hidden; }
+
+.aboutlink {
+  background-color: black;
+  color: white;
+  padding: 3px 10px 3px 10px;
+  text-decoration: none;
+  color: #ecba9d;
+  font-family: "Inter";
+  font-size: 15px; }
