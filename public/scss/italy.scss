@@ -1,0 +1,38 @@
+.italy-main-content {
+    width: calc(80% - 40px);
+    margin-top: 20px;
+
+    p {
+        width: calc(100% - 20px);
+    }
+
+}
+
+
+
+.landscape-bw {
+    width: calc(100% - 20px);
+    ;
+}
+
+.louis-it {
+    width: calc(100%);
+    margin-bottom: 15px;
+
+}
+
+.geranium {
+    margin-bottom: 80px;
+}
+
+@media (max-width: 580px) {
+    .italy-main-content {
+        margin-left: 20px;
+        width: calc(100% - 20px);
+        margin-top: -30px;
+
+        h2 {
+            width: calc(100% - 20px);
+        }
+    }
+}

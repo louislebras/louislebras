@@ -1,0 +1,52 @@
+footer {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 6vh;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white; }
+  footer ul {
+    color: white;
+    font-size: 20px;
+    font-family: "ITCBlair";
+    text-decoration: none;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-animation: bourse linear normal running none 1400s infinite;
+    animation: bourse linear normal running none 1400s infinite;
+    position: absolute;
+    top: -10px;
+    bottom: 0; }
+    footer ul li {
+      width: 2398px; }
+    footer ul .inspiration {
+      width: 1158px; }
+
+@-webkit-keyframes bourse {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  to {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+
+@keyframes bourse {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  to {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }

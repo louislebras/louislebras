@@ -1,0 +1,191 @@
+.about-main {
+  width: calc(80% - 22px);
+  margin-left: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px; }
+
+.about-content {
+  width: calc(60% - 10px);
+  margin-left: 10px; }
+  .about-content h1 {
+    font-size: 40px;
+    width: 100%;
+    letter-spacing: -0.06em; }
+  .about-content p {
+    width: 100%; }
+
+.picture {
+  width: 35%; }
+  .picture p {
+    margin: 0;
+    text-decoration: underline; }
+
+#profile-picture {
+  width: 350px; }
+
+.about-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 90px; }
+  .about-list li {
+    border-top: solid 1px black;
+    font-size: 40px;
+    letter-spacing: -0.06em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+
+.accordion {
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: solid 1px black;
+  height: 60px;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  -webkit-transition: 3.4s;
+  -o-transition: 3.4s;
+  transition: 3.4s;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .accordion span {
+    font-size: 40px;
+    position: relative;
+    bottom: 5px; }
+
+.accordion:after {
+  content: '\002B';
+  color: black;
+  float: right;
+  margin-left: 5px; }
+
+.active:after {
+  content: "\2212"; }
+
+.panel {
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-decoration: none; }
+  .panel h2 {
+    margin: 0;
+    text-decoration: none; }
+
+.magical {
+  margin-top: 60px;
+  margin-bottom: 00px; }
+  .magical h2 {
+    font-size: 40px;
+    font-size: 40px;
+    letter-spacing: -0.06em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+
+.travels {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .travels ul {
+    width: 40%;
+    margin: 0;
+    list-style-type: none;
+    padding: 0; }
+  .travels li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .travels li a {
+      margin-right: 20px; }
+  .travels .list-travel-2 {
+    width: 60%; }
+
+.tea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: solid 1px black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-decoration: none; }
+  .tea h2 {
+    text-decoration: none; }
+
+a {
+  text-decoration: underline; }
+  a h2 {
+    width: 80%; }
+
+.spotify-link {
+  display: block;
+  margin-bottom: 20px; }
+
+#happy-container {
+  margin-bottom: 0px; }
+
+@media (max-width: 1155px) {
+  #head-container {
+    margin-top: 150px; }
+  header span:first-child {
+    width: 80%; }
+  .about-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 0%;
+    width: calc(100% - 22px); }
+  #happy-container {
+    margin-bottom: 0px; }
+  .picture {
+    margin-left: 20px; }
+  .about-content {
+    margin-left: 20px;
+    width: calc(100% - 10px);
+    margin-top: 50px; } }
+
+@media (max-width: 580px) {
+  .picture {
+    width: 100%; }
+  #profile-picture {
+    width: calc(100% - 20px); } }

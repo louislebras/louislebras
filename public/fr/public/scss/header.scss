@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    div {
+        margin-top: 25px;
+        width: calc(100% - 40px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // border: solid 1px red;
+        left: 20px;
+        position: absolute;
+    }
+
+
+    span:first-child {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: -0.055em;
+        position: fixed;
+        top: 20px;
+        width: 20%;
+        animation: naming 1s ease;
+    }
+
+    span:last-child {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: underline;
+        position: fixed;
+        top: 20px;
+        left: calc(100% - 45px);
+
+    }
+}
+
+@media (max-width: 920px) {
+    header {
+        span:first-child {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    header {
+        position: absolute;
+        width: 100%;
+        top: 0px;
+
+        span:first-child {
+            position: absolute;
+            top: 0px;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: -0.2;
+        }
+
+        span:last-child {
+            position: absolute;
+            top: 0px;
+            left: calc(100% - 17px);
+        }
+    }
+}
